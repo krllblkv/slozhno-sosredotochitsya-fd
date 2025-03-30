@@ -1,1 +1,1 @@
-git@github.com:krllblkv/slozhno-sosredotochitsya-fd.git
+https://github.com/krllblkv/slozhno-sosredotochitsya-fd.git
