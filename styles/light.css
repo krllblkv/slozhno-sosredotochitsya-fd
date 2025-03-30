@@ -18,6 +18,7 @@
   --accent-color: #FF8DCB;
   --header-color: #FFC2E6;
   --paragraph-color: #353430;
+  --menu-color: #353430;
   --font-family: 'IBM Plex Mono';
   --font-size: 18px;
   --title-color: #353430;
@@ -33,6 +34,7 @@
     --accent-color: #FF8DCB;
     --header-color: #FFC2E6;
     --paragraph-color: #353430;
+    --menu-color: #353430;
     --font-family: 'IBM Plex Mono';
     --font-size: 18px;
     --title-color: #353430;
