@@ -248,6 +248,10 @@
     grid-template-columns: 1fr 2fr;
    }
 
+   .content-section:nth-child(2) .content-block {
+    grid-column: 1/4;
+   }
+
    .content-section > .content-block__title {
     grid-column: 2/3;
    }
