@@ -4,9 +4,6 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-color: var(--background-color);
   font-family: var(--font-family);
-  background-image: var(--background-image);
-  background-position: center;
-  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -15,6 +12,9 @@
 .header {
   height: 100vh;
   padding: 10px;
+  background-image: var(--background-image);
+  background-position: center;
+  background-size: cover;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   grid-template-columns: repeat(2, 1fr);
