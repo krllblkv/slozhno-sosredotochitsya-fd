@@ -4,6 +4,9 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-color: var(--background-color);
   font-family: var(--font-family);
+  background-image: var(--background-image);
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -12,9 +15,6 @@
 .header {
   height: 100vh;
   padding: 10px;
-  background-image: var(--background-image);
-  background-position: center;
-  background-size: cover;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   grid-template-columns: repeat(2, 1fr);
@@ -22,6 +22,7 @@
   align-items: center;
 }
 
+/* header menu styling */
 .header__theme-menu {
   grid-column: 1/3;
   justify-self: end;
@@ -47,6 +48,7 @@
   border: 1px solid var(--menu-color);
 }
 
+/* header title & text styling */
 .header__title {
   grid-column: 1/3;
   justify-self: start;
@@ -123,7 +125,7 @@
   border-inline-start: 1px solid var(--accent-color);
 }
 
-/* text styling in content section */
+/* accent text element styling */
 .text-decoration {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
@@ -222,7 +224,7 @@
   text-shadow: 2px 2px 0px var(--accent-color);
 }
 
-/* rules for different screens */
+/* tablet screen styling */
 @media (width >= 768px) {
   .header {
     padding: 20px;
@@ -309,6 +311,7 @@
    }
 }
 
+/* desktop screen styling */
 @media (width >= 1024px) {
   .text-decoration:hover {
     border-bottom: 1px solid var(--accent-color);
