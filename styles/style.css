@@ -68,7 +68,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: var(--font-size);
-  line-height: 23px;
+  line-height: 23.4px;
   color: var(--title-color);
   background-color: var(--accent-color);
 }
@@ -170,7 +170,7 @@
   grid-column: 1/4;
   font-weight: 700;
   font-size: var(--font-size);
-  line-height: 23px;
+  line-height: 23.4px;
   color: var(--title-color);
   background-color: var(--accent-color);
 }
