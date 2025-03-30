@@ -3,9 +3,10 @@
   и их переопределение под различные устройства
 */
 :root {
- 
+  --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
   --accent-color: #FF0070;
+  --paragraph-color: #FF0070;
   --header-color: #DB00FF;
   --font-family: 'IBM Plex Mono';
   --font-size: 18px;
@@ -13,5 +14,4 @@
   --text-color: #F1B2CE;
   --rec-element: visible;
   --color-opacity: #ff007066;
-
 }
