@@ -134,7 +134,7 @@
   align-self: center;
   background-color: var(--accent-color);
   filter: drop-shadow(0px 0px 4px var(--accent-color));
-  text-shadow: 0px 0px 4px var(--accent-color);
+  box-shadow: 0 0 6px var(--accent-color);
 }
 
 /* L-bar decor element styling */
@@ -372,5 +372,9 @@
 
   .content-section > .content-block__title {
     grid-column: 2/4;
+  }
+
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
