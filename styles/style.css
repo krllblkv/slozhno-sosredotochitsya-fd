@@ -164,12 +164,6 @@
   border-inline-start: 1px solid var(--menu-color);
 }
 
-/* accent text element styling */
-.text-decoration {
-  text-decoration: none;
-  text-shadow: 2px 2px 0 var(--accent-color);
-}
-
 /* content section styling */
 .content {
   display: grid;
@@ -355,7 +349,7 @@
   }
 
   .content-section {
-   grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .content-block {
